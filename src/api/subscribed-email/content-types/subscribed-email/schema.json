@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribed_emails",
+  "info": {
+    "singularName": "subscribed-email",
+    "pluralName": "subscribed-emails",
+    "displayName": "SubscribedEmail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}
